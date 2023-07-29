@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    intput[type=text],select{
+    width:100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+ }
+
+ input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: while;
+    padding : 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius:40px;
+    cursor: pointer;
+  }
+
+ input[type=submit]:hover {
+    background-color:#45a049
+ }
+</style>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h2>
+        HTML Forms
+    </h2>
+<form action ="/submit" method="post">
+    <label for="Science">Science:</label><br>
+    <input type="text" id="science" name="science" value="0"><br>
+    <label for="Maths">Maths:</label><br>
+    <input type="text" id="maths" name="maths" value="0"><br><br>
+    <label for="C">C:</label><br>
+    <input type="text" id="c" name="c" value="0"><br><br>
+    <label for="Datascience">Datascience:</label><br>
+    <input type="text" id="datascience" name="datascience" value="0"><br><br>
+    <input type="submit" value="Submit">
+</form>
+
+<p>If you ckick the "Submit" button, the form-data will be sent to a page called "/submit".</p>
+</body>
+</html>
